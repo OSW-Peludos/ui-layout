@@ -1,0 +1,230 @@
+/*
+
+ ——————————————–  COLORS - PRIMARIES (+SWATCHES)
+
+*/ 
+
+:root {
+  --teal:   #00b5ac ;
+  --ochre:  #f3bd18 ;
+  --red:    #cc325b ;
+  --orange: #f49134 ;
+  --green:  #8ab532 ;
+  --blue:   #43aad5 ;
+  --purple: #6f60d4 ;
+  --pink:   #cf53b1 ;
+  --grey:   #6a7e85 ;
+  
+  
+  /* Swatches */
+  
+   --teal-lightest:   #00b5ac ;
+   --teal-lighter:    #00b5ac ;
+   --teal-darker:     #00b5ac ;
+   --teal-darkest:    #00b5ac ;
+  
+   --ochre-lightest:  #00b5ac ;
+   --ochre-lighter:   #00b5ac ;
+   --ochre-darker:    #00b5ac ;
+   --ochre-darkest:   #00b5ac ;
+  
+   --red-lightest:    #00b5ac ;
+   --red-lighter:     #00b5ac ;
+   --red-darker:      #00b5ac ;
+   --red-darkest:     #00b5ac ;
+  
+   --orange-lightest: #00b5ac ;
+   --orange-lighter:  #00b5ac ;
+   --orange-darker:   #00b5ac ;
+   --orange-darkest:  #00b5ac ;
+  
+   --green-lightest:  #00b5ac ;
+   --green-lighter:   #00b5ac ;
+   --green-darker:    #00b5ac ;
+   --green-darkest:   #00b5ac ;
+  
+   --blue-lightest:   #00b5ac ;
+   --blue-lighter:    #00b5ac ;
+   --blue-darker:     #00b5ac ;
+   --blue-darkest:    #00b5ac ;
+  
+   --purple-lightest: #00b5ac ;
+   --purple-lighter:  #00b5ac ;
+   --purple-darker:   #00b5ac ;
+   --purple-darkest:  #00b5ac ;
+  
+   --pink-lightest:   #00b5ac ;
+   --pink-lighter:    #00b5ac ;
+   --pink-darker:     #00b5ac ;
+   --pink-darkest:    #00b5ac ;
+  
+   --grey-lightest:   #00b5ac ;
+   --grey-lighter:    #00b5ac ;
+   --grey-darker:     #00b5ac ;
+   --grey-darkest:    #00b5ac ;
+  
+}
+
+
+
+
+
+
+.colorBg.teal.ultralight        { background-color: #d7f5f2 ; }
+    .colorBg.teal.light             { background-color: #96e2d8 ; }
+.colorBg.teal                       { background-color: #00b5ac ; }
+    .colorBg.teal.dark              { background-color: #008080 ; }
+    .colorBg.teal.ultradark         { background-color: #084544 ; }
+
+
+
+
+
+    .colorBg.grey.ultralight        { background-color: #e7eaeb ; }
+    .colorBg.grey.light             { background-color: #c3cbce ; }
+.colorBg.grey                       { background-color: #6A7E85 ; }
+    .colorBg.grey.dark              { background-color: #3d4b51 ; }
+    .colorBg.grey.ultradark         { background-color: #242F32 ; }
+    .colorBg.grey.almostBlack       { background-color: #1b2123 ; }
+
+
+
+
+
+    .colorBg.ochre.ultralight       { background-color: #fdf5da ; }
+    .colorBg.ochre.light            { background-color: #fae5a3 ; }
+.colorBg.ochre                      { background-color: #F3BD18 ; }
+    .colorBg.ochre.dark             { background-color: #9e7b10 ; }
+    .colorBg.ochre.ultradark        { background-color: #694e0c ; }
+
+
+    
+
+/*
+
+ ——————————————–  COLORS - SECONDARIES (+SWATCHES)
+
+*/ 
+    
+
+    .colorBg.red.ultralight         { background-color: #f8d3dc }
+    .colorBg.red.light              { background-color: #eda6b9 }
+.colorBg.red                        { background-color: #cc325b }
+    .colorBg.red.dark               { background-color: #9d2645 }
+    .colorBg.red.ultradark          { background-color: #67182d }
+
+
+
+
+
+    .colorBg.orange.ultralight      { background-color: #fdebd9 }
+    .colorBg.orange.light           { background-color: #fbd2aa }
+.colorBg.orange                     { background-color: #f49134 }
+    .colorBg.orange.dark            { background-color: #9d5d21 }
+    .colorBg.orange.ultradark       { background-color: #62370c }
+
+
+
+
+
+    .colorBg.green.ultralight       { background-color: #eaf4d6 }
+    .colorBg.green.light            { background-color: #cee3a0 }
+.colorBg.green                      { background-color: #8ab532 }
+    .colorBg.green.dark             { background-color: #607a28 }
+    .colorBg.green.ultradark        { background-color: #3b4d15 }
+
+
+
+
+
+    .colorBg.blue.ultralight        { background-color: #e1f2f8 }
+    .colorBg.blue.light             { background-color: #b4d7ee }
+.colorBg.blue                       { background-color: #43aad5 }
+    .colorBg.blue.dark              { background-color: #13759f }
+    .colorBg.blue.ultradark         { background-color: #0b445c }
+
+
+
+
+
+    .colorBg.purple.ultralight      { background-color: #e1e0f8 }
+    .colorBg.purple.light           { background-color: #c4bfee }
+.colorBg.purple                     { background-color: #6f60d4 }
+    .colorBg.purple.dark            { background-color: #584f9d }
+    .colorBg.purple.ultradark       { background-color: #393365 }
+
+
+
+
+
+    .colorBg.pink.ultralight        { background-color: #f7def1 }
+    .colorBg.pink.light             { background-color: #ecbbe0 }
+.colorBg.pink                       { background-color: #cf53b1 }
+    .colorBg.pink.dark              { background-color: #804171 }
+    .colorBg.pink.ultradark         { background-color: #532348 }
+ 
+
+
+
+
+
+/*
+
+ ——————————————–  GRADIENTS
+
+*/ 
+
+
+.gradBg.white {
+    background: #fff ;
+    background: linear-gradient( 159deg , #ffffff 10% , #e6e7e7 ) ;
+    }
+
+.gradBg.teal {
+    background: #084544 ;
+    background: linear-gradient( 159deg , #00cbc1 10% , #084544 ) ;
+    }
+.gradBg.teal.light {
+    background: #084544 ;
+    background: linear-gradient( 159deg , #00f2e6 10% , #0d6b6a ) ;
+    }
+
+.gradBg.ochre {
+    background: #694e0c ;
+    background: linear-gradient( 159deg , #ffc619 10% , #82600f ) ;
+    }
+
+.gradBg.grey {
+    background: #1b2123 ;
+    background: linear-gradient( 159deg , #3d4b51 10% , #1b2123 ) ;
+    }
+
+.gradBg.red {
+    background: #67182d ;
+    background: linear-gradient( 159deg , #cc325b 10% , #591863 ) ;
+    }
+    
+.gradBg.orange {
+    background: #62370c ;
+    background: linear-gradient( 159deg , #f49134 10% , #6c1f51 ) ;
+    }
+    
+.gradBg.green {
+    background: #3b4d15 ;
+    background: linear-gradient( 159deg , #8ab532 10% , #203f58 ) ;
+    }
+
+.gradBg.blue   {
+    background: #1a435e ;
+    background: linear-gradient( 159deg , #43aad5 10% , #432266 ) ;
+    }
+    
+.gradBg.purple {
+    background: #393365 ;
+    background: linear-gradient( 159deg , #6f60d4 10% , #521f43 ) ;
+    }
+    
+.gradBg.pink   {
+    background: #532348 ;
+    background: linear-gradient( 159deg , #cf53b1 10% , #3d265c ) ;
+    }

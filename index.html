@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+         
+    <title>Page title (~60chars). Each page of the website must have a different title. Not only for SEO, also critical for User choice (it's also the link on the Search engines results page).</title>
+    <meta name="description" content="Describe the site's fundamental purpose (max 155chars). It also appears below the link in the Google results page. Not only for SEO, also critical for User choice.">
+    
+    
+    
+<!-- Facebook Open Graph (https://developers.facebook.com/docs/sharing/webmasters#markup) ----->
+    
+    <meta property="og:title" content="Site title">
+    <meta property="og:image" content="site_image_1200x630.png">
+    <meta property="og:url" content="http://www.yourURL.com">
+    <meta property="og:description" content="Page description">
+
+
+
+<!-- Twitter card (https://dev.twitter.com/cards) ----->
+    
+    <meta name="twitter:card" content="summary_large_image"> 
+    <meta name="twitter:title" content="Site Title (max 70chars)">
+    <meta name="twitter:site" content="@yourTwitterAccount">
+    <meta name="twitter:image" content="site_image–min280x150-less1Mb.png">
+    <meta name="twitter:description" content="Site description (max 200chars)">
+    
+   
+    
+<!-- Site (webApp) icons, colors and titles (http://realfavicongenerator.net) ----->
+   
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=refresh">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=refresh" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=refresh" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=refresh">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=refresh" color="#00b5ac">
+    <link rel="shortcut icon" href="/favicon.ico?v=refresh">
+    <meta name="apple-mobile-web-app-title" content="WebApp title">
+    <meta name="application-name" content="WebApp name">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+<!-- Styles. (in the end, concatenated into only one CSS file) ----->
+
+    <!-- Undressing the user-agent styles -->
+    <link rel="stylesheet" href="css/zero.css">
+        
+    <!-- Custom fonts load -->
+    <link rel="stylesheet" href="css/fonts.css">
+    
+    <!-- Colors and Gradients scheme -->
+    <link rel="stylesheet" href="css/color.css">
+        
+    <!-- Global ase styles and some useful classes -->
+    <link rel="stylesheet" href="css/global.css">
+    
+    <!-- Project custom styles -->
+    <link rel="stylesheet" href="css/main.css">
+    
+
+
+<!-- Will you use some plugins? Here its styles  ----->
+   
+    <link rel="stylesheet" href="css/plugins.css">
+    
+    
+    
+<!-- Styles only if user prints the web page ----->
+    
+    <link rel="stylesheet" href="css/ifuserprints.css" media="print">
+    
+
+</head>
+<body>   
+
+<header class="pageHeader">
+  <h1>
+    <a href="/" title="ir a la página principal.">
+    
+<!--      <img src="/img/peluditos-osw-logo.svg" alt="Peluditos by Open Source Weekends">-->
+    </a>
+  </h1>
+</header>
+    
+<main>
+  <label for="searchbox" class="mainLabel">¿Dónde quieres encontrar un peludito?</label>  
+  
+  <div class="searchComponent">
+    <input type="text" class="textbox" id="searchbox">
+    <button class="btn pri">Buscar</button>
+  </div>
+</main>
+    
+    
+    
+    
+    
+    
+
+    
+    
+<!-- Maybe you'll need jQuery library? ----->   
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-3.1.1.min.js"><\/script>')</script>
+
+    
+    
+    
+<!-- Will you use some plugins? (merge all in one JS file) ----->
+
+    <script src="js/libs/plugins.js"></script>
+ 
+    
+    
+    
+<!-- Your ad-hoc JS scripts (and plugin initializations)  ----->
+    <script src="js/main.js"></script>
+   
+    
+    
+    
+<!-- Maybe you'll use Google Analytics? (change UA-XXXXX-X) ----->
+
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+
+</body>
+</html>

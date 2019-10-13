@@ -1,0 +1,113 @@
+/* Texts format by default          */
+
+    html {
+        text-rendering: optimizeLegibility ;
+        -ms-text-size-adjust: 100% ;
+        -webkit-text-size-adjust: 100% ;
+        
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        font-family: Brown, serif ;
+		line-height: 1.5 ;
+        
+        font-size: 100% ;
+        /* font-size: 112.5% ; */     /* 18px */
+        /* font-size: 125% ;   */     /* 20px */
+        color: #556 ;
+        }
+
+
+
+
+
+/* Inline SVG icons         */
+
+    .ico    {
+        display: inline-block ;
+        vertical-align: middle ;
+        line-height: normal ;
+        width: 1.2em ;
+        height: 1.2em ;
+        margin-right: .8em ;
+        position: relative ;
+        top: -.09em ;
+        }
+
+    .ico > svg   {
+        height: 100% ;
+        width: 100% ;
+        fill: currentColor ;
+        }
+
+
+
+
+
+/* Flexible images and videos         */
+
+    .flexibleMedia {
+        width: auto ;
+        height: auto ;
+        max-width: 100% ;   
+        }
+
+
+
+
+/* Flexible iframes         */
+
+    .flexibleIframe-wrapper {
+        display: block ;
+        width: 100% ;
+        padding-top: 56.25% ; /* 16:9 aspect-ratio iframes by default */
+        }
+
+    .prop-4x3  { padding-top: 75%    } /*  mod for  4:3 aspect-ratio */
+    .prop-1x1  { padding-top: 100%   } /*  mod for  1:1 aspect-ratio */
+    .prop-21x9 { padding-top: 42.85% } /*  mod for 21:9 aspect-ratio */
+
+
+    .flexibleIframe-wrapper > iframe {
+        position: absolute ;
+        width: 100% ;
+        height: 100% ;
+        top: 0 ;
+        left: 0 ;
+        }   
+
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    line-height: normal ;
+    font-weight: bold ;
+    letter-spacing: -.02em ;
+    color: #223 ; 
+    margin-bottom: .75em
+    }
+
+
+
+/* Headings — Golden section scale */
+
+h1 { font-size: 3.125rem      }
+h2 { font-size: 2.618rem      }
+h3 { font-size: 1.931rem      }
+h4 { font-size: 1.618rem      }
+h5 { font-size: 1.194rem      }
+h6 { font-size: 1rem          }
+
+
+        /* Headings in Big screens — octave scale */
+
+        @media screen and (min-width: 42em) {	
+
+            h1 { font-size: 6.2rem      }
+            h2 { font-size: 4rem        }
+            h3 { font-size: 3.125rem    }
+            h4 { font-size: 2rem        }
+            h5 { font-size: 1.563rem    }
+            h6 { font-size: 1rem        }
+        }
+
+
+
+p + p { margin-top: .5em } 
+
